@@ -6,6 +6,15 @@ trap: Trap and print signals.
 $ trap
 ^Cinterrupt
 ^Cinterrupt
+user defined signal 1
+user defined signal 2
+alarm clock
+child exited
+trace/BPT trap
+continued
+quit
+interrupt
+quit
 Killed: 9
 ```
 
