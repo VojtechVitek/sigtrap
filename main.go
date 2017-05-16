@@ -11,6 +11,8 @@ func main() {
 	sig := make(chan os.Signal, 1)
 	signal.Notify(sig, signals...)
 
+	fmt.Printf("PID: %v\n", os.Getpid())
+
 	go func() {
 		for {
 			fmt.Printf("%s\n", <-sig)

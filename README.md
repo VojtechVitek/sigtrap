@@ -4,6 +4,7 @@ trap: Trap and print signals.
 # Usage
 ```bash
 $ trap
+PID: 54506
 ^Cinterrupt
 ^Cinterrupt
 user defined signal 1
@@ -29,16 +30,16 @@ $ kill -l
 26) SIGVTALRM	27) SIGPROF	28) SIGWINCH	29) SIGINFO	30) SIGUSR1
 31) SIGUSR2
 
-$ kill -30 $PID
-$ kill -31 $PID
-$ kill -14 $PID
-$ kill -20 $PID
-$ kill -5 $PID
-$ kill -19 $PID
-$ kill -3 $PID
-$ kill -2 $PID
-$ kill -3 $PID
-$ kill -9 $PID
+$ kill -30 54506
+$ kill -31 54506
+$ kill -14 54506
+$ kill -20 54506
+$ kill -5 54506
+$ kill -19 54506
+$ kill -3 54506
+$ kill -2 54506
+$ kill -3 54506
+$ kill -9 54506
 ```
 
 # Installation
