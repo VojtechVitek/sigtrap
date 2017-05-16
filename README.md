@@ -1,9 +1,9 @@
-trap: Trap and print signals.
+sigtrap: Trap and print signals.
 ======
 
 # Usage
 ```bash
-$ trap
+$ sigtrap
 PID: 54506
 ^Cinterrupt
 ^Cinterrupt
@@ -45,7 +45,7 @@ $ kill -9 54506
 # Installation
 
 ```bash
-go get -u github.com/VojtechVitek/trap
+go get -u github.com/VojtechVitek/sigtrap
 ```
 *You might need to [download Go](https://golang.org/dl/) first.*
 
